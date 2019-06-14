@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  Keyboard
+//
+//  Created by Veeco on 2019/4/2.
+//  Copyright © 2019 Chance. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UtilHeader.h"
+#import "UIView+WGExtension.h"
+#import "ColorHeader.h"
+
+#endif /* PrefixHeader_pch */
