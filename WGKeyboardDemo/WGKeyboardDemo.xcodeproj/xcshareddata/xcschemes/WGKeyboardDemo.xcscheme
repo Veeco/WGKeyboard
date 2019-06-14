@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "64E964DF2248BD8600CD75B0"
-               BuildableName = "KeyboardDemo.app"
-               BlueprintName = "KeyboardDemo"
-               ReferencedContainer = "container:KeyboardDemo.xcodeproj">
+               BuildableName = "WGKeyboardDemo.app"
+               BlueprintName = "WGKeyboardDemo"
+               ReferencedContainer = "container:WGKeyboardDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64E964DF2248BD8600CD75B0"
-            BuildableName = "KeyboardDemo.app"
-            BlueprintName = "KeyboardDemo"
-            ReferencedContainer = "container:KeyboardDemo.xcodeproj">
+            BuildableName = "WGKeyboardDemo.app"
+            BlueprintName = "WGKeyboardDemo"
+            ReferencedContainer = "container:WGKeyboardDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64E964DF2248BD8600CD75B0"
-            BuildableName = "KeyboardDemo.app"
-            BlueprintName = "KeyboardDemo"
-            ReferencedContainer = "container:KeyboardDemo.xcodeproj">
+            BuildableName = "WGKeyboardDemo.app"
+            BlueprintName = "WGKeyboardDemo"
+            ReferencedContainer = "container:WGKeyboardDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "64E964DF2248BD8600CD75B0"
-            BuildableName = "KeyboardDemo.app"
-            BlueprintName = "KeyboardDemo"
-            ReferencedContainer = "container:KeyboardDemo.xcodeproj">
+            BuildableName = "WGKeyboardDemo.app"
+            BlueprintName = "WGKeyboardDemo"
+            ReferencedContainer = "container:WGKeyboardDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

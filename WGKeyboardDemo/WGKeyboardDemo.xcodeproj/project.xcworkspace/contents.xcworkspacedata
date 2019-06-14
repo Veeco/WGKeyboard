@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/veeco/Desktop/Chance/KeyboardDemo/KeyboardDemo.xcodeproj">
+      location = "self:/Users/veeco/WGKeyboard/KeyboardDemo/WGKeyboardDemo.xcodeproj">
    </FileRef>
 </Workspace>
