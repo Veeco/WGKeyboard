@@ -444,10 +444,11 @@ static NSString *const kCancelDes = @"松开 取消";
         return;
     }
     self.assoTB.height = self.y - self.assoTB.y;
+    const CGFloat delta = self.assoTB.contentSize.height - self.assoTB.height;
     
-    if (scrollToBottom) {
+    if (scrollToBottom && delta > 0) {
         
-        [self.assoTB setContentOffset:CGPointMake(0, self.assoTB.contentSize.height - self.assoTB.height) animated:NO];
+        [self.assoTB setContentOffset:CGPointMake(0, delta) animated:NO];
     }
 }
 

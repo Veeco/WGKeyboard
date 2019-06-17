@@ -250,7 +250,7 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		642DBAB222A92BBF008DBD0E /* KeyBoard */ = {
+		642DBAB222A92BBF008DBD0E /* WGKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
 				642DBAB322A92BBF008DBD0E /* WGKeyboard.h */,
@@ -259,7 +259,7 @@
 				642DBAC922A92BBF008DBD0E /* More */,
 				642DBAC322A92BBF008DBD0E /* Other */,
 			);
-			path = KeyBoard;
+			path = WGKeyBoard;
 			sourceTree = "<group>";
 		};
 		642DBAB422A92BBF008DBD0E /* Stiker */ = {
@@ -477,7 +477,7 @@
 			children = (
 				64E964E62248BD8600CD75B0 /* ViewController.h */,
 				64E964E72248BD8600CD75B0 /* ViewController.m */,
-				642DBAB222A92BBF008DBD0E /* KeyBoard */,
+				642DBAB222A92BBF008DBD0E /* WGKeyBoard */,
 				64B32DC52297E060006BD31E /* Support */,
 				64B32DC42297DFD0006BD31E /* Other */,
 			);
