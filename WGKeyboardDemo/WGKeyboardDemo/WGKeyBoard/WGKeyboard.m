@@ -488,10 +488,10 @@ static NSString *const kCancelDes = @"松开 取消";
     _stikerBtn.y = _topToolBar.height - (kTopToolBarOriHeight - _stikerBtn.height) / 2 - _stikerBtn.height;
     _voiceBtn.centerY = _stikerBtn.centerY;
     _moreBtn.centerY = _stikerBtn.centerY;
-    _stikerView.y = CGRectGetMaxY(_topToolBar.frame);
-    _moreView.y = _stikerView.y;
     self.height = CGRectGetMaxY(_topToolBar.frame) + BOTTOM_SAFE_MARGIN;
     self.y = [self getSelfY];
+    _stikerView.y = CGRectGetMaxY(_topToolBar.frame);
+    _moreView.y = _stikerView.y;
     [self updateAssoTBUIWithScrollToBottom:scrollToBottom];
 }
 
@@ -850,6 +850,11 @@ static NSString *const kCancelDes = @"松开 取消";
     if (_willInputStatus == InputStatusMore) {
         
         return SCREEN_HEIGHT - KeyboardMoreViewHeight - self.height + BOTTOM_SAFE_MARGIN;
+    }
+    if (_currentInputStatus == InputStatusStiker) { // Emoji输入换行
+        
+        CGRect frame = [_stikerView convertRect:_stikerView.bounds toView:self.superview];
+        return frame.origin.y - self.height + BOTTOM_SAFE_MARGIN;
     }
     return _sysKeyboardUp ? _sysKeyboardY - self.height + BOTTOM_SAFE_MARGIN : _sysKeyboardY - self.height;
 }
